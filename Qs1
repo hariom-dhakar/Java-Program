@@ -1,4 +1,4 @@
-//Write a program to find the biggest of 3 Numbers
+/* Write a program to find the biggest of 3 Numbers 
 
 import java.util.*;
 public class BiggestOf3 {
