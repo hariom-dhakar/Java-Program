@@ -1,7 +1,7 @@
 //Write a program to find the biggest of 3 Numbers
 
 import java.util.*;
-public class BIggestOf3 {
+public class BiggestOf3 {
 	public static void main(String args[]) {
 		System.out.println("Hariom Dhakar");
 		System.out.println("Enter value of A");
