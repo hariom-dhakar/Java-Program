@@ -1,4 +1,4 @@
-/* Write aprogram to print sum of digits of a given number
+// Write aprogram to print sum of digits of a given number 
 import java.util.*;
 public class Sum {
 public static void main(String [] args) {
