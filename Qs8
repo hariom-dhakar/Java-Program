@@ -1,0 +1,28 @@
+//Write a program to check the given string is a palindrome or not
+
+import java.util.*;
+public class Palindrome {
+public static void main(String [] args) {
+	System.out.println("Hariom Dhakar");
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Enter the string: ");
+	String a = sc.nextLine();
+	boolean ans =true;
+	a =a.toLowerCase();
+	int start=0;
+	int end=a.length()-1;
+	while(start<end) {
+		if(a.charAt(start)!=a.charAt(end)) {
+			ans=false;
+		}
+		start++;
+		end--;
+	}
+	if(ans==true) {
+		System.out.println("The given string is Palindrome");
+	}
+	else {
+		System.out.println("The given string is not Palindrome");
+	}
+}
+}
