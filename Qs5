@@ -1,0 +1,16 @@
+/* Write aprogram to print sum of digits of a given number
+import java.util.*;
+public class Sum {
+public static void main(String [] args) {
+	System.out.println("Hariom Dhakar");
+	Scanner sc = new Scanner (System.in);
+	int a,b;
+	System.out.println("Enter the value of A");
+	a= sc.nextInt();
+	System.out.println("Enter the value of B");
+	b= sc.nextInt();
+	int sum;
+	sum=a+b;
+	System.out.println("Sum of A and B is : " +sum);
+}
+}
