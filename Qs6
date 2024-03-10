@@ -6,14 +6,18 @@ public static void main(String [] args) {
 	System.out.println("Hariom Dhakar");
 	Scanner sc = new Scanner (System.in);
 	int a;
-	System.out.println("Enter the number");
+	System.out.println("Enter the First number");
 	a= sc.nextInt();
-	int sum=0;
-	while(a!=0) {
-		int n=a%10;
-		sum+=n;
-		a/=10;
-	}
-	System.out.println("Sum of the number is : " +sum);
+ 
+int b;
+	System.out.println("Enter the Second number");
+	b= sc.nextInt();
+System.out.println("Value of A before swaping: "+a);
+System.out.println("Value of B before swaping: "+b);
+int temp=a;
+a=b;
+b=temp;
+System.out.println("Value of A After swaping: "+a);
+System.out.println("Value of B After swaping: "+b);
 }
 }
