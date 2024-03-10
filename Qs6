@@ -1,20 +1,19 @@
 /* Write a program for swapping two numbers
 
 import java.util.*;
-public class SwapNumber {
+public class Sum {
 public static void main(String [] args) {
 	System.out.println("Hariom Dhakar");
 	Scanner sc = new Scanner (System.in);
-	int a,b;
-	System.out.println("Enter the value of A");
+	int a;
+	System.out.println("Enter the number");
 	a= sc.nextInt();
-	System.out.println("Enter the value of B");
-	b= sc.nextInt();
-	System.out.println("Before Swapping A = " + a +"\nBefore Swapping B = "+b);
-	int temp;
-	temp=a;
-	a=b;
-	b=temp;
-	System.out.println("After Swapping A = " + a +"\nAfter Swapping B = "+b);
+	int sum=0;
+	while(a!=0) {
+		int n=a%10;
+		sum+=n;
+		a/=10;
+	}
+	System.out.println("Sum of the number is : " +sum);
 }
 }
