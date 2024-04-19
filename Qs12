@@ -4,7 +4,7 @@ public class MultiplicationTable {
 
 	public static void main(String[] args) {
 	Scanner sc = new Scanner(System.in);
-	System.out.println("This Program is solved by name ");
+	System.out.println("Hariom Dhakar");
 	System.out.println("Enter total number of multiplication tables you want to print ");
 	int num = sc.nextInt();
 	int table[][] = new int[10][num];
