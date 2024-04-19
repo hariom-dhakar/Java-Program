@@ -4,7 +4,7 @@ public class QuadriticEq {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("This Program is solved bt Niraj Ramnani");
+		System.out.println("Hariom Dhakar");
 		double a,b,c;
 		System.out.println("Enter value of a ");
 		a = sc.nextDouble();
